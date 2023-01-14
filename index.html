@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <html>
+        <head>
+          <link rel="stylesheet" type="text/css" href="clock_style.css">
+          <script type="text/javascript">
+            window.onload = setInterval(clock,1000);
+        
+            function clock()
+            {
+              var d = new Date();
+              
+              var date = d.getDate();
+              
+              var month = d.getMonth();
+              var montharr =["Jan","Feb","Mar","April","May","June","July","Aug","Sep","Oct","Nov","Dec"];
+              month=montharr[month];
+              
+              var year = d.getFullYear();
+              
+              var day = d.getDay();
+              var dayarr =["Sun","Mon","Tues","Wed","Thurs","Fri","Sat"];
+              day=dayarr[day];
+              
+              var hour =d.getHours();
+              var min = d.getMinutes();
+              var sec = d.getSeconds();
+            
+              document.getElementById("date").innerHTML=day+" "+date+" "+month+" "+year;
+              document.getElementById("time").innerHTML=hour+":"+min+":"+sec;
+            }
+          </script>
+        </head>
+        
+        <body>
+           <p id="date"></p>
+           <p id="time"></p>
+        
+         </body>
+        </html>
+
+        <title>Welcome to My Homepage</title>
+        <body background="images/pexels-photo-4705853.jpeg"></body>
+        <center>
+        <audio controls autoplay>
+            <source src="audio/Taylor Swift - 22.mp3" type="audio/ogg">
+            <source src="audio/Taylor Swift - 22.mp3" type="audio/mpeg">
+        </audio>
+        </center>
+    </head>
+    <body bgcolor="#F2B2C8">
+
+    <body>
+        <p>
+            <div style="text-align:center;">
+            <img src="images/uitm_logo-removebg-preview.png" width="500">
+        
+            <h1> <font size="15px"><b>WELCOME TO MY HOMEPAGE</b></b></font></h1>
+            
+            <a href="index.html"><img src="images/button.png" width="130"></a>
+            <a href="biodata.html"><img src="images/button (1).png" width="110"></a>
+            <a href="experience.html"><img src="images/button (2).png" width="140"></a>
+            <a href="education.html"><img src="images/button (3).png" width="130"></a>
+            <a href="family.html"><img src="images/button (4).png" width="100"></a>
+            <a href="gallery.html"><img src="images/button (5).png" width="115"></a>
+            <a href="friends.html"><img src="images/button (6).png" width="110"></a>
+
+            </div>
+
+            <h1 style="text-align:center;"> <img src="images/photo of myself.jpg" boarder="2" width="350px" hspace="50" vspace="50"> </h1>
+
+        </p>
+            <h1 style="text-align:center">
+                <a href="https://www.instagram.com/aly4hmad/"><img src="images/insta logo.png" width="50px"></a>
+                <a href="https://www.tiktok.com/@https.yayaaa"><img src="images/tiktok logo.png" width="90px"></a>
+                <a href="https://mobile.twitter.com/aly4hmad_"><img src="images/twitter logo.png" width="60px"></a>
+
+                <blockquote>
+                <h1 style="text-align: center;"><font color=#9B6363 font size="7px"><i>'It's never too late to be what you might've been.” ―George Eliot.</i></font></h1>
+
+            </blockquote>
+            <audio control autoplay>
+                <source src=""
+            </audio>
+        
+        
+        
+        </p>
+
+
+
+    </body>
+
+
+
+    </body>
+</html> 
